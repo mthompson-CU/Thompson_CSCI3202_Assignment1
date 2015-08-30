@@ -25,7 +25,7 @@ class Graph():
 
 	def findVertex(self, vertex):
 		if (vertex in self.vertices):
-			print self.vertices[vertex]
+			print str(vertex) + ': ' + str(self.vertices[vertex])
 		else:
 			print 'Vertex not found'
 		return
