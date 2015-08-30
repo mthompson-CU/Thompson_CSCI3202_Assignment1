@@ -12,7 +12,7 @@ class Stack():
 	def push(self, item):
 		# Inspired by http://stackoverflow.com/questions/3501382/checking-whether-a-variable-is-an-integer-or-not
 		if(not isinstance(item, int)):
-			raise ValueError("'item' must be an integer")
+			raise TypeError("'item' must be an integer")
 		else: 
 			self.list.append(item)
 
