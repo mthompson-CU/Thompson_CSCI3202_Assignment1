@@ -80,6 +80,23 @@ def main(argv):
 	for x in range(0, 5):
 		graph.findVertex(x)
 
+	# ADDITIONAL CODE TO PRINT PICTURE OF GRAPH
+
+	# import networkx as nx
+	# import matplotlib.pyplot as plt
+
+	# graph = nx.Graph()
+
+	# for x in range(0, 10):
+	# 	graph.add_node(x)
+
+	# for x in range(0, 10):
+	# 	graph.add_edge(x, (x+1)%10)
+	# 	graph.add_edge(x, (x+2)%10)
+
+	# nx.draw(graph)
+	# plt.show()
+
 	return
 
 if __name__ == "__main__":

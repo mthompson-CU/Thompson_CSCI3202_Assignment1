@@ -3,10 +3,114 @@
 	{
 		"selected_items":
 		[
+			[
+				"ver",
+				"vertices"
+			],
+			[
+				"vertex",
+				"vertex2"
+			],
+			[
+				"verte",
+				"vertex1"
+			],
+			[
+				"being",
+				"beingDeleted"
+			],
+			[
+				"s",
+				"searchTree"
+			],
+			[
+				"prin",
+				"printTree"
+			],
+			[
+				"paret",
+				"parentNode"
+			],
+			[
+				"parent",
+				"parentNode"
+			],
+			[
+				"paren",
+				"parentNode"
+			],
+			[
+				"node",
+				"nodeQueue"
+			],
+			[
+				"Binary",
+				"BinaryTree"
+			],
+			[
+				"Bin",
+				"Binary"
+			],
+			[
+				"int",
+				"intQ"
+			],
+			[
+				"__",
+				"__init__"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "Thompson_Assignment1.py",
+			"settings":
+			{
+				"buffer_size": 1883,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Graph.py",
+			"settings":
+			{
+				"buffer_size": 790,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Node.py",
+			"settings":
+			{
+				"buffer_size": 358,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "BinaryTree.py",
+			"settings":
+			{
+				"buffer_size": 2074,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Stack.py",
+			"settings":
+			{
+				"buffer_size": 737,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "IntQueue.py",
+			"settings":
+			{
+				"buffer_size": 505,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -36,6 +140,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment1/Thompson_CSCI3202_Assignment1/README.md",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment1/Thompson_CSCI3202_Assignment1/IntQueue.py",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment1/Thompson_CSCI3202_Assignment1/Thompson_CSCI3203_Assignment1.sublime-project",
 		"/Users/Matt/Dropbox/Personal/Training/mean/server/includes/scripts.jade",
 		"/Users/Matt/Dropbox/Personal/Training/mean/server/includes/layout.jade",
 		"/Users/Matt/Dropbox/Personal/Training/mean/server/views/index.jade",
@@ -52,7 +159,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -66,6 +173,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"&&",
+			"subtree"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -73,6 +182,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"and",
+			"parentNode"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -83,8 +194,166 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Thompson_Assignment1.py",
+					"settings":
+					{
+						"buffer_size": 1883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1831,
+								1831
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 750.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Graph.py",
+					"settings":
+					{
+						"buffer_size": 790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								744,
+								744
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Node.py",
+					"settings":
+					{
+						"buffer_size": 358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "BinaryTree.py",
+					"settings":
+					{
+						"buffer_size": 2074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1334,
+								1334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Stack.py",
+					"settings":
+					{
+						"buffer_size": 737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								578,
+								578
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "IntQueue.py",
+					"settings":
+					{
+						"buffer_size": 505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -121,7 +390,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
