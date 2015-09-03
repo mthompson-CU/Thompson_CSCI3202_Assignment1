@@ -25,6 +25,12 @@ def main(argv):
 		rmvd = intQ.get() 
 		print "Got integer " + str(rmvd) + " from queue" 
 
+	print '\nTesting queue corner cases'
+
+	print '\n-> Adding a non-integer value to queue\n'
+
+	intQ.put('a')
+
 	# TESTING STACK
 
 	print '\nTESTING STACK\n'
@@ -38,6 +44,12 @@ def main(argv):
 	while not stack.checkSize() == 0:
 		popped = stack.pop() 
 		print "Popped integer " + str(popped) + " from stack" 
+
+	print '\nTesting stack corner cases'
+
+	print '\n-> Adding a non-integer value to stack\n'
+
+	stack.push('a')
 
 	# TESTING BINARY TREE
 
@@ -64,9 +76,27 @@ def main(argv):
 
 	binTree.printTree()
 
+	print '\nTesting binary tree corner cases'
+
+	print '\n-> Adding a node to a node with two children\n'
+
+	binTree.add(12, 0)
+
+	print '\n-> Adding a node to a node that is not in the tree\n'
+
+	binTree.add(13, 12)
+
+	print '\n-> Deleting a node that has children\n'
+
+	binTree.delete(0)
+
+	print '\n-> Deleting a node that is not in the tree\n'
+
+	binTree.delete(15)
+
 	# TESTING GRAPH
 
-	print '\nTESTING BINARY TREE\n'
+	print '\nTESTING GRAPH\n'
 
 	graph = Graph.Graph()
 
@@ -79,6 +109,16 @@ def main(argv):
 
 	for x in range(0, 5):
 		graph.findVertex(x)
+
+	print '\nTesting graph corner cases'
+
+	print '\n-> Adding a vertex that is already in the graph\n'
+
+	graph.addVertex(0)
+
+	print '\n-> Adding an edge with a node that is not in the graph\n'
+
+	graph.addEdge(0, 42)
 
 	# ADDITIONAL CODE TO PRINT PICTURE OF GRAPH
 

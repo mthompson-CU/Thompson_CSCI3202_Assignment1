@@ -59,9 +59,8 @@ class BinaryTree():
 
 	def printTree(self):
 		nodeQueue = Queue.Queue()
-		nodeQueue.put(self.root)
 
-		node = nodeQueue.get()
+		node = self.root
 		while (isinstance(node, Node.Node)):
 			nodeQueue.put(node.left)
 			nodeQueue.put(node.right)
@@ -72,9 +71,8 @@ class BinaryTree():
 
 	def searchTree(self, key):
 		nodeQueue = Queue.Queue()
-		nodeQueue.put(self.root)
-
-		node = nodeQueue.get()
+		
+		node = self.root
 		while (isinstance(node, Node.Node)):
 			if (node.key == key):
 				return node
