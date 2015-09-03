@@ -1,4 +1,5 @@
 # Author: Matthew Thompson
+# IdentiKey: math1906
 # Date: August 30, 2015
 # Programming Assignment 1
 # Implements a Graph

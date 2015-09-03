@@ -1,4 +1,5 @@
 # Author: Matthew Thompson
+# IdentiKey: math1906
 # Date: August 25, 2015
 # Programming Assignment 1
 # Implements a Binary Tree

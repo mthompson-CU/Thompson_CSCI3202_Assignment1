@@ -1,5 +1,5 @@
 # Author: Matthew Thompson
-# Identikey: math1906
+# IdentiKey: math1906
 # Date: August 25, 2015
 # Programming Assignment 1
 
