@@ -68,11 +68,15 @@ def main(argv):
 		print "Added integer " + str(beingAdded+1) + " to tree" 
 		beingAdded += 2
 
+	print '\nPrinting tree\n'
+
 	binTree.printTree()
 
 	for x in range(0, 5):
 		binTree.delete(10 - x)
 		print "Deleted integer " + str(10 - x) + " from tree"
+
+	print '\nPrinting tree\n'
 
 	binTree.printTree()
 
@@ -106,6 +110,8 @@ def main(argv):
 	for x in range(0, 10):
 		graph.addEdge(x, (x+1)%10)
 		graph.addEdge(x, (x+2)%10)
+
+	print '\nPrinting 5 vertices\n'
 
 	for x in range(0, 5):
 		graph.findVertex(x)
